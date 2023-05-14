@@ -1,0 +1,23 @@
+/* ===== Scrollbar CSS ===== */
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    margin-block: .5em;
+    filter: blur(20px);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #582965;
+    border-radius: 10px;
+    border: 2px solid #6000f0;
+    filter: blur(20px);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
